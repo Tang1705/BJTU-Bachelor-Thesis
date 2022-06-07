@@ -1,0 +1,15 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is '/Users/tq/Desktop/BJTU-Bachelor-Thesis/example/.texpadtmp/example.blg'
+[80] biber-darwin:340> INFO - === Tue Jun  7, 2022, 18:53:27
+[94] Biber.pm:415> INFO - Reading '/Users/tq/Desktop/BJTU-Bachelor-Thesis/example/.texpadtmp/example.bcf'
+[194] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[206] Biber.pm:4340> INFO - Processing section 0
+[215] Biber.pm:4531> INFO - Looking for bibtex format file '/Users/tq/Desktop/BJTU-Bachelor-Thesis/example/reference/bjtu-bachelor-thesis-reference.bib' for section 0
+[216] bibtex.pm:1689> INFO - LaTeX decoding ...
+[236] bibtex.pm:1494> INFO - Found BibTeX data source '/Users/tq/Desktop/BJTU-Bachelor-Thesis/example/reference/bjtu-bachelor-thesis-reference.bib'
+[425] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[425] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[425] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[425] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[436] bbl.pm:654> INFO - Writing '/Users/tq/Desktop/BJTU-Bachelor-Thesis/example/.texpadtmp/example.bbl' with encoding 'UTF-8'
+[444] bbl.pm:757> INFO - Output to /Users/tq/Desktop/BJTU-Bachelor-Thesis/example/.texpadtmp/example.bbl

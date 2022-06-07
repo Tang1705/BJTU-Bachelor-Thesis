@@ -1,0 +1,632 @@
+%introduction
+
+@inproceedings{DBLP:conf/iros/KerlSC13,
+  author    = {Christian Kerl and
+               J{\"{u}}rgen Sturm and
+               Daniel Cremers},
+  title     = {Dense Visual {SLAM} for {RGB-D} Cameras},
+  booktitle = {{IEEE/RSJ} International Conference on Intelligent Robots and
+               Systems},
+  pages     = {2100--2106},
+  year      = {2013},
+}
+
+@article{DBLP:journals/pami/GeLYT19,
+  author    = {Liuhao Ge and
+               Hui Liang and
+               Junsong Yuan and
+               Daniel Thalmann},
+  title     = {Real-Time 3D Hand Pose Estimation with 3D Convolutional Neural Networks},
+  journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume    = {41},
+  number    = {4},
+  pages     = {956--970},
+  year      = {2019},
+}
+
+@article{DBLP:journals/pami/ImHCJJK19,
+  author    = {Sunghoon Im and
+               Hyowon Ha and
+               Gyeongmin Choe and
+               Hae{-}Gon Jeon and
+               Kyungdon Joo and
+               In So Kweon},
+  title     = {Accurate 3D Reconstruction from Small Motion Clip for Rolling Shutter
+               Cameras},
+  journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},  
+  volume    = {41},
+  number    = {4},
+  pages     = {775--787},
+  year      = {2019},
+}
+
+@article{DBLP:journals/corr/abs-1907-06781,
+  title={Rethinking RGB-D Salient Object Detection: Models, Data Sets, and Large-Scale Benchmarks},
+  author={Fan, Deng-Ping and Lin, Zheng and Zhang, Zhao and Zhu, Menglong and Cheng, Ming-Ming},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  volume={32},
+  number={5},
+  pages={2075--2089},
+  year={2020},
+}
+
+%related work
+
+@article{DBLP:journals/corr/abs-1708-09105,
+  title={Simultaneously Color-Depth Super-Resolution with Conditional Generative Adversarial Network},
+  author={Zhao, Lijun and Bai, Huihui and Liang, Jie and Zeng, Bing and Wang, Anhong and Zhao, Yao},
+  journal={Pattern Recognition},
+  volume={88},
+  pages={356--369},
+  year={2019},
+}
+
+@inproceedings{HuiLT16,
+  author    = {Tak{-}Wai Hui and
+               Chen Change Loy and
+               Xiaoou Tang},
+  title     = {Depth Map Super-Resolution by Deep Multi-Scale Guidance},
+  booktitle = {European Conference on Computer Vision},
+  volume    = {9907},
+  pages     = {353--369},
+  year      = {2016},
+}
+
+@article{DBLP:journals/isci/ZuoFYSW19,
+  author    = {Yi{-}Fan Zuo and
+               Yuming Fang and
+               Yong Yang and
+               Xiwu Shang and
+               Bin Wang},
+  title     = {Residual Dense Network For Intensity-Guided Depth Map Enhancement},
+  journal   = {Information Sciences},
+  volume    = {495},
+  pages     = {52--64},
+  year      = {2019},
+}
+
+@article{DBLP:journals/tip/YeSWYXLL20,
+  author    = {Xinchen Ye and
+               Baoli Sun and
+               Zhihui Wang and
+               Jingyu Yang and
+               Rui Xu and
+               Haojie Li and
+               Baopu Li},
+  title     = {PMBANet: Progressive Multi-Branch Aggregation Network for Scene Depth
+               Super-Resolution},
+  journal   = {IEEE Transactions on Image Processing},
+  volume    = {29},
+  pages     = {7427--7442},
+  year      = {2020},
+}
+
+@article{DBLP:journals/tip/GuoLGCFH19,
+  author    = {Chunle Guo and
+               Chongyi Li and
+               Jichang Guo and
+               Runmin Cong and
+               Huazhu Fu and
+               Ping Han},
+  title     = {Hierarchical Features Driven Residual Learning for Depth Map Super-Resolution},
+  journal   = {IEEE Transactions on Image Processing},
+  volume    = {28},
+  number    = {5},
+  pages     = {2545--2557},
+  year      = {2019},
+}
+
+@inproceedings{DBLP:conf/nips/EigenPF14,
+  author    = {David Eigen and
+               Christian Puhrsch and
+               Rob Fergus},
+  title     = {Depth Map Prediction from a Single Image using a Multi-Scale Deep
+               Network},
+  booktitle = {Advances in Neural Information Processing Systems
+              },
+  pages     = {2366--2374},
+  year      = {2014},
+}
+
+@inproceedings{DBLP:conf/3dim/LainaRBTN16,
+  author    = {Iro Laina and
+               Christian Rupprecht and
+               Vasileios Belagiannis and
+               Federico Tombari and
+               Nassir Navab},
+  title     = {Deeper Depth Prediction with Fully Convolutional Residual Networks},
+  booktitle = {International Conference on 3D Vision},
+  pages     = {239--248},
+  year      = {2016},
+}
+
+@article{DBLP:journals/tcsv/CaoWS18,
+  author    = {Yuanzhouhan Cao and
+               Zifeng Wu and
+               Chunhua Shen},
+  title     = {Estimating Depth From Monocular Images as Classification Using Deep
+               Fully Convolutional Residual Networks},
+  journal   = {IEEE Transactions on Circuits and Systems for Video Technology},
+  volume    = {28},
+  number    = {11},
+  pages     = {3174--3182},
+  year      = {2018},
+}
+
+@inproceedings{DBLP:conf/eccv/ZhangCXJLY18,
+  author    = {Zhenyu Zhang and
+               Zhen Cui and
+               Chunyan Xu and
+               Zequn Jie and
+               Xiang Li and
+               Jian Yang},
+  title     = {Joint Task-Recursive Learning for Semantic Segmentation and Depth
+               Estimation},
+  booktitle = {European Conference on Computer Vision},
+  volume    = {11214},
+  pages     = {238--255},
+  year      = {2018},
+}
+@article{DBLP:journals/corr/abs-2101-07422,
+  author    = {Lei He and
+               Jiwen Lu and
+               Guanghui Wang and
+               Shiyu Song and
+               Jie Zhou},
+  title     = {SOSD-Net: Joint Semantic Object Segmentation and Depth Estimation
+               from Monocular images},
+  journal={Neurocomputing},
+  volume={440},
+  pages={251--263},
+  year={2021},
+ }
+
+@inproceedings{DBLP:conf/eccv/WangZWLR20,
+  author    = {Lijun Wang and
+               Jianming Zhang and
+               Yifan Wang and
+               Huchuan Lu and
+               Xiang Ruan},
+  title     = {CLIFFNet for Monocular Depth Estimation with Hierarchical Embedding
+               Loss},
+  booktitle = {European Conference on Computer Vision},
+  volume    = {12350},
+  pages     = {316--331},
+  year      = {2020},
+}
+
+@InProceedings{Sun2021cvpr,
+    author    = {Sun, Baoli and Ye, Xinchen and Li, Baopu and Li, Haojie and Wang, Zhihui and Xu, Rui},
+    title     = {Learning Scene Structure Guidance via Cross-Task Knowledge Transfer for Single Depth Super-Resolution},
+    booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition},
+    year      = {2021},
+    pages     = {7792-7801}
+}
+
+@book{qiu2020nndl,
+title = {Neural Networks and Deep Learning},
+year = {2020},
+author = {Xipeng Qiu},
+isbn = {9787111649687},
+}
+
+@inproceedings{DBLP:conf/eccv/NewellYD16,
+  author    = {Alejandro Newell and
+               Kaiyu Yang and
+               Jia Deng},
+  title     = {Stacked Hourglass Networks for Human Pose Estimation},
+  booktitle = {European Conference on Computer Vision},
+  pages     = {483--499},
+}
+
+@inproceedings{DBLP:conf/cvpr/ShiCHTABRW16,
+  author    = {Wenzhe Shi and
+               Jose Caballero and
+               Ferenc Huszar and
+               Johannes Totz and
+               Andrew P. Aitken and
+               Rob Bishop and
+               Daniel Rueckert and
+               Zehan Wang},
+  title     = {Real-Time Single Image and Video Super-Resolution Using an Efficient
+               Sub-Pixel Convolutional Neural Network},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition},
+  pages     = {1874--1883},
+  year      = {2016},
+}
+
+@inproceedings{DBLP:conf/cvpr/HuSS18,
+  author    = {Jie Hu and
+               Li Shen and
+               Gang Sun},
+  title     = {Squeeze-and-Excitation Networks},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition},
+  pages     = {7132--7141},
+  year      = {2018},
+}
+
+@inproceedings{DBLP:conf/nips/JaderbergSZK15,
+  author    = {Max Jaderberg and
+               Karen Simonyan and
+               Andrew Zisserman and
+               Koray Kavukcuoglu},
+  title     = {Spatial Transformer Networks},
+  booktitle = {Advances in Neural Information Processing Systems},
+  pages     = {2017--2025},
+  year      = {2015},
+}
+
+
+% proposed method
+
+@inproceedings{DBLP:conf/aaai/YinRZF20,
+  author    = {Yu Yin and
+               Joseph P. Robinson and
+               Yulun Zhang and
+               Yun Fu},
+  title     = {Joint Super-Resolution and Alignment of Tiny Faces},
+  booktitle = {{AAAI} Conference on Artificial Intelligence               },
+  pages     = {12693--12700},
+  year      = {2020},
+}
+
+@inproceedings{DBLP:conf/cvpr/LimSKNL17,
+  author    = {Bee Lim and
+               Sanghyun Son and
+               Heewon Kim and
+               Seungjun Nah and
+               Kyoung Mu Lee},
+  title     = {Enhanced Deep Residual Networks for Single Image Super-Resolution},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition
+               Workshops},
+  pages     = {1132--1140},
+  year      = {2017},
+}
+
+@inproceedings{DBLP:conf/eccv/WooPLK18,
+  author    = {Sanghyun Woo and
+               Jongchan Park and
+               Joon{-}Young Lee and
+               In So Kweon},
+  title     = {{CBAM:} Convolutional Block Attention Module},
+  booktitle = {European Conference on Computer Vision},
+  volume    = {11211},
+  pages     = {3--19},
+  year      = {2018},
+}
+
+@article{DBLP:journals/tip/SindagiP20,
+  author    = {Vishwanath A. Sindagi and
+               Vishal M. Patel},
+  title     = {{HA-CCN:} Hierarchical Attention-Based Crowd Counting Network},
+  journal   = {IEEE Transactions on Image Processing},
+  volume    = {29},
+  pages     = {323--335},
+  year      = {2020},
+}
+
+
+@article{DBLP:journals/tmm/WangXCZSY20,
+  author    = {Jin Wang and
+               Wei Xu and
+               Jian{-}Feng Cai and
+               Qing Zhu and
+               Yunhui Shi and
+               Baocai Yin},
+  title     = {Multi-Direction Dictionary Learning Based Depth Map Super-Resolution
+               With Autoregressive Modeling},
+  journal   = {IEEE Transactions on Multimedia},
+  volume    = {22},
+  number    = {6},
+  pages     = {1470--1484},
+  year      = {2020},
+}
+
+@inproceedings{DBLP:conf/cvpr/ZhangTKZ018,
+  author    = {Yulun Zhang and
+               Yapeng Tian and
+               Yu Kong and
+               Bineng Zhong and
+               Yun Fu},
+  title     = {Residual Dense Network for Image Super-Resolution},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition},
+  pages     = {2472--2481},
+  year      = {2018},
+}
+
+% experiments
+
+@inproceedings{LuSMLD12,
+  author    = {Jiangbo Lu and
+               Keyang Shi and
+               Dongbo Min and
+               Liang Lin and
+               Minh N. Do},
+  title     = {Cross-Based Local Multipoint Filtering},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition
+              },
+  pages     = {430--437},
+  year      = {2012},
+}
+
+@inproceedings{0001TT13,
+  author    = {Ming{-}Yu Liu and
+               Oncel Tuzel and
+               Yuichi Taguchi},
+  title     = {Joint Geodesic Upsampling of Depth Images},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition
+              },
+  pages     = {169--176},
+  year      = {2013},
+}
+
+@inproceedings{DBLP:conf/iccv/FerstlRRRB13,
+  author    = {David Ferstl and
+               Christian Reinbacher and
+               Ren{\'{e}} Ranftl and
+               Matthias R{\"{u}}ther and
+               Horst Bischof},
+  title     = {Image Guided Depth Upsampling Using Anisotropic Total Generalized
+               Variation},
+  booktitle = {{IEEE} International Conference on Computer Vision},
+  pages     = {993--1000},
+  year      = {2013},
+}
+
+@inproceedings{DBLP:conf/icmcs/XieCFS14,
+  author    = {Jun Xie and
+               Cheng{-}Chuan Chou and
+               Rog{\'{e}}rio Schmidt Feris and
+               Ming{-}Ting Sun},
+  title     = {Single Depth Image Super Resolution and Denoising via Coupled Dictionary
+               Learning with Local Constraints and Shock Filtering},
+  booktitle = {{IEEE} International Conference on Multimedia and Expo},
+  pages     = {1--6},
+  year      = {2014},
+}
+
+@inproceedings{DBLP:conf/eccv/AodhaCNB12,
+  author    = {Oisin Mac Aodha and
+               Neill D. F. Campbell and
+               Arun Nair and
+               Gabriel J. Brostow},
+  title     = {Patch Based Synthesis for Single Depth Image Super-Resolution},
+  booktitle = {European Conference on Computer Vision},
+  volume    = {7574},
+  pages     = {71--84},
+  year      = {2012},
+}
+
+@article{DBLP:journals/tip/XieFS16,
+  author    = {Jun Xie and
+               Rog{\'{e}}rio Schmidt Feris and
+               Ming{-}Ting Sun},
+  title     = {Edge-Guided Single Depth Image Super Resolution},
+  journal   = {IEEE Transactions on Image Processing},
+  volume    = {25},
+  number    = {1},
+  pages     = {428--438},
+  year      = {2016},
+}
+
+@inproceedings{DBLP:conf/eccv/DongLHT14,
+  author    = {Chao Dong and
+               Chen Change Loy and
+               Kaiming He and
+               Xiaoou Tang},
+  title     = {Learning a Deep Convolutional Network for Image Super-Resolution},
+  booktitle = {European Conference on Computer Vision},
+  volume    = {8692},
+  pages     = {184--199},
+  year      = {2014},
+}
+
+@inproceedings{DBLP:conf/eccv/RieglerRB16,
+  author    = {Gernot Riegler and
+               Matthias R{\"{u}}ther and
+               Horst Bischof},
+  title     = {ATGV-Net: Accurate Depth Super-Resolution},
+  booktitle = {European Conference on Computer Vision},
+  volume    = {9907},
+  pages     = {268--284},
+  year      = {2016},
+}
+
+
+@inproceedings{DBLP:conf/cvpr/GuZGCCZ17,
+  author    = {Shuhang Gu and
+               Wangmeng Zuo and
+               Shi Guo and
+               Yunjin Chen and
+               Chongyu Chen and
+               Lei Zhang},
+  title     = {Learning Dynamic Guidance for Depth Image Enhancement},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition},
+  pages     = {712--721},
+  year      = {2017},
+}
+
+@inproceedings{DBLP:conf/icassp/YeDL18,
+  author    = {Xinchen Ye and
+               Xiangyue Duan and
+               Haojie Li},
+  title     = {Depth Super-Resolution with Deep Edge-Inference Network and Edge-Guided
+               Depth Filling},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal
+               Processing},
+  pages     = {1398--1402},
+  year      = {2018},
+}
+
+@article{WenSLLF19,
+  author    = {Yang Wen and
+               Bin Sheng and
+               Ping Li and
+               Weiyao Lin and
+               David Dagan Feng},
+  title     = {Deep Color Guided Coarse-to-Fine Convolutional Network Cascade for
+               Depth Image Super-Resolution},
+  journal   = {IEEE Transactions on Image Processing},
+  volume    = {28},
+  number    = {2},
+  pages     = {994--1006},
+  year      = {2019},
+}
+
+@inproceedings{LutioDWS19,
+  author    = {Riccardo de Lutio and
+               Stefano D'Aronco and
+               Jan Dirk Wegner and
+               Konrad Schindler},
+  title     = {Guided Super-Resolution As Pixel-to-Pixel Transformation},
+  booktitle = {{IEEE} International Conference on Computer Vision
+               },
+  pages     = {8828--8836},
+   year      = {2019},
+}
+
+@inproceedings{DBLP:conf/eccv/LiHA016,
+  author    = {Yijun Li and
+               Jia{-}Bin Huang and
+               Narendra Ahuja and
+               Ming{-}Hsuan Yang},
+  title     = {Deep Joint Image Filtering},
+  booktitle = {European Conference on Computer Vision},
+  volume    = {9908},
+  pages     = {154--169},
+  year      = {2016},
+}
+
+@inproceedings{DBLP:conf/iccv/AlbaharH19,
+  author    = {Badour Albahar and
+               Jia{-}Bin Huang},
+  title     = {Guided Image-to-Image Translation With Bi-Directional Feature Transformation},
+  booktitle = {{IEEE} International Conference on Computer Vision
+               },
+  pages     = {9015--9024},
+  year      = {2019},
+}
+
+@inproceedings{DBLP:conf/cvpr/SuJSGLK19,
+  author    = {Hang Su and
+               Varun Jampani and
+               Deqing Sun and
+               Orazio Gallo and
+               Erik G. Learned{-}Miller and
+               Jan Kautz},
+  title     = {Pixel-Adaptive Convolutional Neural Networks},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition
+               },
+  pages     = {11166--11175},
+  year      = {2019},
+}
+
+
+@article{DBLP:journals/corr/abs-1903-11286,
+  author    = {Beomjun Kim and
+               Jean Ponce and
+               Bumsub Ham},
+  title     = {Deformable Kernel Networks for Guided Depth Map Upsampling},
+  journal={ArXiv Preprint ArXiv:1903.11286},
+  year={2019}
+}
+
+@inproceedings{ParkKTBK11,
+  author    = {Jaesik Park and
+               Hyeongwoo Kim and
+               Yu{-}Wing Tai and
+               Michael S. Brown and
+               In{-}So Kweon},
+  title     = {High Quality Depth Map Upsampling for 3D-TOF Cameras},
+  booktitle = {{IEEE} International Conference on Computer Vision},
+  pages     = {1623--1630},
+  year      = {2011},
+}
+
+@article{DBLP:journals/pami/HamCP18,
+  author    = {Bumsub Ham and
+               Minsu Cho and
+               Jean Ponce},
+  title     = {Robust Guided Image Filtering Using Nonconvex Potentials},
+  journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume    = {40},
+  number    = {1},
+  pages     = {192--207},
+  year      = {2018},
+}
+
+@inproceedings{DBLP:conf/cvpr/PanDRLT019,
+  author    = {Jinshan Pan and
+               Jiangxin Dong and
+               Jimmy S. J. Ren and
+               Liang Lin and
+               Jinhui Tang and
+               Ming{-}Hsuan Yang},
+  title     = {Spatially Variant Linear Representation Models for Joint Filtering},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition
+               },
+  pages     = {1702--1711},
+  year      = {2019},
+}
+
+@article{DBLP:journals/ijcv/BakerSLRBS11,
+  author    = {Simon Baker and
+               Daniel Scharstein and
+               J. P. Lewis and
+               Stefan Roth and
+               Michael J. Black and
+               Richard Szeliski},
+  title     = {A Database and Evaluation Methodology for Optical Flow},
+  journal   = {International Journal of Computer Vision},
+  volume    = {92},
+  number    = {1},
+  pages     = {1--31},
+  year      = {2011},
+}
+
+@inproceedings{DBLP:conf/cvpr/HirschmullerS07,
+  author    = {Heiko Hirschm{\"{u}}ller and
+               Daniel Scharstein},
+  title     = {Evaluation of Cost Functions for Stereo Matching},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern
+               Recognition},
+  pages={1--8},
+  year      = {2007},
+}
+
+@inproceedings{DBLP:conf/dagm/ScharsteinHKKNWW14,
+  author    = {Daniel Scharstein and
+               Heiko Hirschm{\"{u}}ller and
+               York Kitajima and
+               Greg Krathwohl and
+               Nera Nesic and
+               Xi Wang and
+               Porter Westling},
+  title     = {High-Resolution Stereo Datasets with Subpixel-Accurate Ground Truth},
+  booktitle = {German Conference on Pattern Recognition},
+  volume    = {8753},
+  pages     = {31--42},
+  year      = {2014},
+}
+
+@inproceedings{DBLP:conf/cvpr/ScharsteinP07,
+  author    = {Daniel Scharstein and
+               Chris Pal},
+  title     = {Learning Conditional Random Fields for Stereo},
+  booktitle = {{IEEE} Computer Society Conference on Computer Vision and Pattern
+               Recognition},
+  pages={1--8},
+  year      = {2007},
+}
+
+@inproceedings{SilbermanHKF12,
+  author    = {Nathan Silberman and
+               Derek Hoiem and
+               Pushmeet Kohli and
+               Rob Fergus},
+  title     = {Indoor Segmentation and Support Inference from {RGBD} Images},
+  booktitle = {European Conference on Computer Vision},
+  volume    = {7576},
+  pages     = {746--760},
+  year      = {2012},
+}

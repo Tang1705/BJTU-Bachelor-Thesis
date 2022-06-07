@@ -1,0 +1,10 @@
+\begin{englishabstract}
+	\noindent\bjtusongti{\textbf{ABSTRACT:}}Depth map super-resolution is a task with high practical application requirements in the industry. Existing color-guided depth map super-resolution methods usually necessitate an extra branch to extract high-frequency detail information from RGB image to guide the low-resolution depth map reconstruction. However, because there are still some differences between the two modalities, direct information transmission in the feature dimension or edge map dimension cannot achieve satisfactory result, and may even trigger texture copying in areas where the structures of the RGB-D pair are inconsistent.
+	
+Inspired by the multi-task learning, we propose a joint learning network of depth map super-resolution (DSR) and monocular depth estimation (MDE) without introducing additional supervision labels. For the interaction of two subnetworks, we adopt a differentiated guidance strategy and design two bridges correspondingly. One is the high-frequency attention bridge (HABdg) designed for the feature encoding process, which learns the high-frequency information of the MDE task to guide the DSR task. The other is the content guidance bridge (CGBdg) designed for the depth map reconstruction process, which provides the content guidance learned from DSR task for MDE task. The entire network architecture is highly portable and can provide a paradigm for associating the DSR and MDE tasks. Extensive experiments on benchmark datasets demonstrate that our method achieves competitive performance.
+
+In many fields, such as autonomous navigation, 3D reconstruction, human-computer interaction, and virtual reality, a high-quality and high-resolution depth map is needed. Therefore, improving the reconstruction of high-resolution depth map from low-resolution depth map will promote the development and practical application of downstream tasks.
+	\newline		
+	\newline
+	\noindent \bjtusongti {\textbf{KEYWORDS:\;}Depth map; Super-resolution; Monocular Depth Estimation; Multi-task Learning}
+\end{englishabstract}

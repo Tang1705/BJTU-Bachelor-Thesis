@@ -1,0 +1,88 @@
+%%
+%% This is file `main.tex'
+%%
+%% ------------------------------------------------------------------------
+%% Copyright (C) 2022 Q.Tang
+%% 
+%% Licensed under the Apache License, Version 2.0 (the "License");
+%% you may not use this file except in compliance with the License.
+%% You may obtain a copy of the License at
+%% 
+%%     http://www.apache.org/licenses/LICENSE-2.0
+%% 
+%% Unless required by applicable law or agreed to in writing, software
+%% distributed under the License is distributed on an "AS IS" BASIS,
+%% WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+%% See the License for the specific language governing permissions and
+%% limitations under the License.
+%% ------------------------------------------------------------------------
+
+\documentclass{bjtu-bachelor-thesis}
+%========================================================================%
+% 自定义内容
+%========================================================================%
+
+\author{XX}
+\studentNumber{1730xxxx}
+\advisor{XXX}
+\school{软件学院}
+\major{软件工程}
+\title{设计（论文）题目}
+\englishtitle{The Design and Implementation of \\ Thesis Template Based on \LaTeX}
+
+%========================================================================%
+% 前置部分
+%========================================================================%
+
+\begin{document}
+\pagenumbering{roman}
+\makecover % 封面
+\makeAuthorization % 版权声明
+
+\setcounter{page}{1}
+\pagestyle{bjtufancy}
+
+\include{chapters/abstract} % 中文摘要
+\include{chapters/englishabstract} % 中文摘要
+
+% 目录
+\tableofcontents
+\addcontentsline{toc}{part}{目\hspace{2em}录}%
+\pagestyle{bjtufancy}
+%========================================================================%
+% 主体部份
+%========================================================================%
+
+\newpage
+\pagestyle{bjtufancymain}
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\include{chapters/introduction}
+\include{chapters/relatedwork}
+\include{chapters/method}
+\include{chapters/experiments}
+\include{chapters/conclusion}
+
+%========================================================================%
+% 参考文献
+%========================================================================%
+\newpage
+\pagestyle{bjtufancy}
+
+\nocite{*} % 显示.bib文件中的所有参考文献，无论正文是否引用
+
+\printbibliography[heading=bjtuheading]
+\addcontentsline{toc}{part}{参考文献}
+\cleardoublepage
+%========================================================================%
+% 致谢
+%========================================================================%
+%\thankspage
+\include{chapters/thanks}
+%========================================================================%
+% 附录
+%========================================================================%
+\include{chapters/appendix}
+
+\end{document}
