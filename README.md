@@ -1,4 +1,4 @@
-<h1 align="center" style="font-size: 16pt">
+<h1 align="center" style="font-size: 15pt">
   <a href="https://github.com/Tang1705/BJTU-Bachelor-Thesis" title="Bachelor Thesis LaTeX Template for Beijing Jiaotong University">
     <img alt="BJTU-Bachelor-Thesis" src="preview/icon.png" width="85%" />
   </a>
