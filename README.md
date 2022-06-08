@@ -9,6 +9,7 @@
 Bachelor Thesis LaTeX Template for Beijing Jiaotong University
 </p>
 
+## 📝 repo 介绍
 这是在北京交通大学本科生毕业设计（论文）规范下的一份 LaTeX 文档类型模板（非官方）。使用者无需修改导言区文档类型，直接在发布版的基础上，修改章节标题，撰写内容，即可完成毕业设计（论文）任务。
 
 本 repo 基于开源库 <a href="https://github.com/paulzhn/bjtu-bachelor-thesis">paulzhn/bjtu-bachelor-thesis</a> 之上修改而成，在规范中明确格式和原工作的基础上，进一步还原了 word 模板样式，并对文件结构和命令、环境等进行了调整。
