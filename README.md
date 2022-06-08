@@ -3,7 +3,7 @@
     <img alt="BJTU-Bachelor-Thesis" src="preview/icon.png" width="85%" />
   </a>
   <br />
-  北京交通大学本科毕业设计（论文）LaTeX 模板（非官方）
+  北京交通大学本科毕业设计（论文）LaTeX 模板
 </h1>
 <p align="center">
 Bachelor Thesis LaTeX Template for Beijing Jiaotong University
