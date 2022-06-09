@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.14)  7 JUN 2022 18:44
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.14)  9 JUN 2022 17:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1588,7 +1588,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ))
 \@quotelevel=\count588
 \@quotereset=\count589
- (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/main.aux (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/chapters/abstract.aux) (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/chapters/englishabstract.aux) (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/chapters/introduction.aux) (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/chapters/relatedwork.aux) (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/chapters/method.aux) (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/chapters/experiments.aux) (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/chapters/conclusion.aux) (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/chapters/thanks.aux) (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/chapters/appendix.aux))
+ (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/main.aux (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/chapters/abstract.aux) (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/chapters/englishabstract.aux) (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/chapters/introduction.aux) (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/chapters/relatedwork.aux) (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/chapters/method.aux) (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/chapters/experiments.aux) (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/chapters/conclusion.aux) (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/chapters/thanks.aux) (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/chapters/appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -1679,7 +1679,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 37.
 LaTeX Info: Redefining \pageref on input line 37.
 LaTeX Info: Redefining \nameref on input line 37.
- (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/main.out) (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/main.out)
+ (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/main.out) (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1714,7 +1714,7 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/main.bbl)
+ (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/main.bbl)
 Package biblatex Info: Reference section=0 on input line 37.
 Package biblatex Info: Reference segment=0 on input line 37.
 \c@lstlisting=\count592
@@ -1897,7 +1897,7 @@ Package fontspec Info: Font family 'stzhongs.ttf(0)' created for font
 
 
 
-] (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/main.toc)
+] (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -1918,6 +1918,10 @@ Package fontspec Info: Font family 'stzhongs.ttf(0)' created for font
 
  (./chapters/relatedwork.tex
 2
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 1.
+
 File: figures/pic2-1.png Graphic file (type bmp)
 <figures/pic2-1.png>
 [2
@@ -1927,11 +1931,32 @@ File: figures/pic2-1.png Graphic file (type bmp)
 
 ] [3]
 Missing character: There is no 。 ("3002) in font zptmcm7t!
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 84.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 86.
+
 ) [4]
 \openout2 = `chapters/method.aux'.
 
  (./chapters/method.tex
 3
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 4.
+
 ) [5
 
 
@@ -1942,6 +1967,18 @@ Missing character: There is no 。 ("3002) in font zptmcm7t!
 
  (./chapters/experiments.tex
 4
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 4.
+
 ) [6
 
 
@@ -1976,20 +2013,20 @@ Missing character: There is no 。 ("3002) in font zptmcm7t!
 
 
 
-] (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/main.aux (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/chapters/abstract.aux) (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/chapters/englishabstract.aux) (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/chapters/introduction.aux) (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/chapters/relatedwork.aux) (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/chapters/method.aux) (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/chapters/experiments.aux) (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/chapters/conclusion.aux) (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/chapters/thanks.aux) (/Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/chapters/appendix.aux))
+] (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/main.aux (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/chapters/abstract.aux) (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/chapters/englishabstract.aux) (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/chapters/introduction.aux) (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/chapters/relatedwork.aux) (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/chapters/method.aux) (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/chapters/experiments.aux) (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/chapters/conclusion.aux) (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/chapters/thanks.aux) (/Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/chapters/appendix.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5C53AAD1CD94591D35B7B72FC4DCD0EF;2098.
+(rerunfilecheck)             Checksum: 31A5C1E1C07C5AF389DE42DCA4A08D7D;1920.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52280 strings out of 476919
- 1221604 string characters out of 5821839
- 2174734 words of memory out of 5000000
- 71298 multiletter control sequences out of 15000+600000
+ 52258 strings out of 476919
+ 1219654 string characters out of 5821839
+ 2174588 words of memory out of 5000000
+ 71276 multiletter control sequences out of 15000+600000
  429424 words of font info for 166 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  117i,12n,118p,1199b,4962s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/tq/Desktop/BJTU-Graduation-Design-2021/bjtu-bachelor-thesis/.texpadtmp/main.pdf (16 pages).
+Output written on /Users/tq/Desktop/BJTU-Bachelor-Thesis/bjtu-bachelor-thesis/.texpadtmp/main.pdf (16 pages).
