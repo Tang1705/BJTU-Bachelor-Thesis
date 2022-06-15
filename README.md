@@ -51,19 +51,19 @@ Bachelor Thesis LaTeX Template for Beijing Jiaotong University
 
 |       |                   展示                   |                       展示                        |
   |:--------------------------------------:|:-----------------------------------------------:| :-----------------------------------------------: |
-  | 预览  |  ![coverpage](preview/coverpage.png)   | ![frontpage_chs](preview/authorizationpage.png) |
+  | 预览  |  ![coverpage](preview/coverpage.png)   | ![authorizationpage](preview/authorizationpage.png) |
   | 说明  |                  封面页                   |                       授权页                       |
   | 文件  |              `\makecover`              |              `\makeAuthorization`               |
-  | 预览  | ![frontpage_eng](preview/abstract.png) |    ![abstract_chs](preview/abstract_en.png)     |
+  | 预览  | ![abstract](preview/abstract.png) |    ![abstract_en](preview/abstract_en.png)     |
   | 说明  |                  中文摘要                  |                      英文摘要                       |
   | 文件  |             `abstract.tex`             |              `englishabstract.tex`              |
-  | 预览  |  ![abstract_eng](preview/content.png)  |       ![references](preview/chapter.png)        |
+  | 预览  |  ![content](preview/content.png)  |       ![chapter](preview/chapter.png)        |
   | 说明  |                   目录                   |                     正文（部分）                      |
   | 文件  |           `\tableofcontents`           |                   `chapters/`                   |
-  | 预览  |   ![appendix](preview/reference.png)   |     ![acknowledgements](preview/thanks.png)     |
+  | 预览  |   ![reference](preview/reference.png)   |     ![thanks](preview/thanks.png)     |
   | 说明  |                  参考文献                  |                       致谢                        |
   | 文件  |  `bjtu-bachelor-thesis-reference.bib`  |                  `thanks.tex`                   |
-  | 预览  |    ![mywork](preview/appendix.png)     |         ![statement](preview/main.png)          |
+  | 预览  |    ![appendix](preview/appendix.png)     |         ![main](preview/main.png)          |
   | 说明  |                   附录                   |                     论文模板预览                      |
   | 文件  |             `appendix.tex`             |                   `main.pdf`                    |
 
